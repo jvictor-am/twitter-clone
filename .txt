@@ -13,3 +13,13 @@ yarn add react-sticky-box
 yarn add -D @types/styled-components
 
 yarn add react-sticky-box
+
+yarn build
+
+netlify login
+
+netlify deploy --dir build
+
+netlify deploy --prod
+
+https://twtclonejv.netlify.app/
