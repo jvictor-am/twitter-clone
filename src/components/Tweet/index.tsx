@@ -37,7 +37,7 @@ const Tweet: React.FC = () => {
             <time>July 8th, 2020</time>
           </Header>
 
-          <Description>Magnificent photo taken by João Victor</Description>
+          <Description>Magnificent photo taken by Keenan</Description>
 
           <ImageContent />
 

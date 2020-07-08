@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import { Chat, Rocketseat, Favorite } from '../../styles/Icons';
 
 import city from '../../assets/city.jpg';
+import jvtw from '../../assets/jvtw.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -47,7 +48,8 @@ export const Avatar = styled.div`
   height: 49px;
   border-radius: 50%;
   flex-shrink: 0;
-  background: var(--gray);
+  /* background: var(--gray); */
+  background: url(${jvtw}) no-repeat;
 
   position: absolute;
   top: 0;
