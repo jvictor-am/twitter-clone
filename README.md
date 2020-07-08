@@ -28,11 +28,11 @@ company using ReactJS, TypeScript, a lot of CSS (styled-components) and it's res
 ## :framed_picture: :computer: Screens
 
 <h3 align="center">
-  
+
 <img src=".github/home2.png" width="900"  alt="home2">
 
 <details><summary><b> :triangular_flag_on_post: More Screens :triangular_flag_on_post: </b></summary>
-  
+
 <img src=".github/home3.png" width="900"  alt="home3">
 <img src=".github/home4.png" width="900"  alt="home4">
 <img src=".github/home5.png" width="900"  alt="home5">
@@ -62,7 +62,7 @@ $ npm start
 
 ## :heavy_check_mark: Deploy:
 
-<strong>Netilify:</strong> https://twtclonejv.netlify.app/
+<strong>Netlify:</strong> https://twtclonejv.netlify.app/
 
 </br>
 
