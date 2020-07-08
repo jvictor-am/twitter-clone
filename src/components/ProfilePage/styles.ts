@@ -3,6 +3,12 @@ import styled, { css } from 'styled-components';
 import { LocationOn, Cake } from '../../styles/Icons';
 import Button from '../Button';
 
+import jv from '../../assets/jv.jpg';
+import jv2 from '../../assets/jv2.jpg';
+import jv3 from '../../assets/jv3.jpg';
+import tt from '../../assets/tt.png';
+import tt2 from '../../assets/tt2.png';
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -11,6 +17,7 @@ export const Container = styled.div`
   overflow-y: auto;
 
   scrollbar-width: none; /** Firefox **/
+
   ::-webkit-scrollbar {
     display: none;
   }
@@ -27,17 +34,43 @@ export const Banner = styled.div`
   position: relative;
 `;
 
+export const Bird = styled.div`
+  width: 88px;
+  height: 88px;
+
+  background: url(${tt}) no-repeat;
+  position: absolute;
+  left: calc(50% - (88px / 2));
+  top: calc(50% - (88px / 2));
+
+  @media (max-width: 500px) {
+    width: 64px;
+    height: 64px;
+    background: url(${tt2}) no-repeat;
+    left: calc(50% - (64px / 2));
+    top: calc(50% - (64px / 2));
+  }
+`;
+
 export const Avatar = styled.div`
   width: max(45px, min(135px, 22vw));
   height: max(45px, min(135px, 22vw));
 
   border: 3.75px solid var(--primary);
-  background: var(--gray);
+  /* background: var(--gray); */
+  background: url(${jv}) no-repeat;
   border-radius: 50%;
 
   position: absolute;
   bottom: max(-60px, -10vw);
   left: 15px;
+
+  @media (max-width: 500px) {
+    background: url(${jv2}) no-repeat;
+  }
+  @media (max-width: 400px) {
+    background: url(${jv3}) no-repeat;
+  }
 `;
 
 export const ProfileData = styled.div`
