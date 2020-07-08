@@ -1,3 +1,13 @@
 npx create-react-app twitter-clone --template=typescript
 // or
 yarn create react-app twiter-clone --template=typescript
+
+yarn add styled-components 
+
+yarn add @styled-icons/material @styled-icons/material-outlined
+
+yarn add @styled-icons/heroicons-solid @styled-icons/heroicons-outline
+
+yarn add react-sticky-box
+
+yarn add -D @types/styled-components
